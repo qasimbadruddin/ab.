@@ -98,7 +98,7 @@ a{
 
   }
   p{
-    font-size:13px;
+    font-size:12px;
   }
   .logo{
     width: 25%;
@@ -122,8 +122,11 @@ a{
     margin-bottom: 10px;
     height: 210px;
     border: none;
-
   }
+  .details{
+  font-size: small;
+  text-align: justify;
+}
 }
 
 
