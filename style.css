@@ -1,0 +1,129 @@
+body {
+  background-color: #e9edc9;
+  margin: 0px 50px 0px 50px;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+}
+h1[value="title"]{
+  font-size: 5rem;
+  font-family: 'Bebas Neue', sans-serif;
+  text-align: center;
+  color:#8d99ae;
+  margin: 0%;
+}
+h2{
+  font-family: 'Bebas Neue', sans-serif;
+  text-align: center;
+  color: #403f4c;
+}
+h3{
+  color: #1e2824;
+  font-family: 'Cinzel', serif;
+  margin-bottom: 0;
+}
+p{
+  font-size: 19px;
+  padding: 2px;
+  color:#1e2824;
+  font-family: 'Kalam', cursive;
+}
+footer > p{
+  text-align: center;
+  color:dimgray;
+}
+.tile-image{
+  float: left;
+  width: 50%;
+  height: 150px;
+  margin-right: 15px;
+  border:solid #6d6875;
+  border-top: 0;
+  border-left: 0;
+}
+.left{
+  float:left;
+  background-color: white;
+  margin-bottom: 25px;
+}
+.right{
+  float:right;
+  background-color: white;
+  margin-bottom: 25px;
+}
+.card{
+  width: 45%;
+  height: 250px;
+  border: solid #9d8189;
+  margin-top: 20px;
+}
+.logo { 
+  background-color: #457b9d;
+  text-align: center;
+  width: 10%;
+  margin: 0%;
+  padding: 2%;
+}
+.logo h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  padding: 0%;
+  color: white;
+}
+a{
+  color: black;
+  font-size: large;
+}
+#slogan{
+  text-align: center;
+  font-size: 35px;
+  color: #370617;
+  font-family: 'Caveat', cursive;
+}
+.details{
+  font-size: small;
+  text-align: justify;
+}
+#moto{
+  color:#9d8189;
+}
+@media ( max-width: 680px) {
+  h1 {
+    font-size: 3.5rem;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+
+  }
+  p{
+    font-size:13px;
+  }
+  .logo{
+    width: 25%;
+    height: 50px;
+    padding: 5%;
+  }
+  .border .card{
+    border: solid #b8bedd;
+    float: none;
+  }
+  .card{
+    width: 100%;
+    height: 350px;
+    display: inline-block;
+    text-align: justify;
+    margin-bottom: 25px;
+  }
+  .card img{
+    width: 100%;
+    display: inline;
+    margin-bottom: 10px;
+    height: 210px;
+    border: none;
+
+  }
+}
+
+
