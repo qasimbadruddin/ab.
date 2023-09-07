@@ -106,7 +106,7 @@ a{
     padding: 5%;
   }
   .border .card{
-    border: solid #b8bedd;
+    border: solid #9d8189 5px;
     float: none;
   }
   .card{
@@ -121,7 +121,7 @@ a{
     display: inline;
     margin-bottom: 10px;
     height: 210px;
-    border: none;
+    border-right: 0;
   }
   .details{
     font-size: x-small;
